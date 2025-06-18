@@ -31,7 +31,7 @@ Bu proje, teknik servis süreçlerini dijital olarak yönetmek ve izlemek amacı
 ## 🖼 Ekran Görüntüleri
 
 ### 📌 Ekran 1 - Ürün Kategori Yönetimi
-![Ürün Kategori Yönetimi](./1.png)
+![Ürün Kategori Yönetimi](Resimler/1.png)
 
 Kategori işlemleri, ürün arama ve marka yönetimi bu ekrandan gerçekleştirilir.
 
