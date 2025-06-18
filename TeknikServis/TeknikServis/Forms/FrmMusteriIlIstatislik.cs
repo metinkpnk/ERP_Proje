@@ -18,7 +18,7 @@ namespace TeknikServis.Forms
             InitializeComponent();
         }
         DboTeknikServisEntities2 db = new DboTeknikServisEntities2();
-        SqlConnection bgl = new SqlConnection(@"Data Source=HAMDIDAMAR\SQL_2014;Initial Catalog=DboTeknikServis;Integrated Security=True");
+        SqlConnection bgl = new SqlConnection(@"Data Source=DESKTOP-M2P25KG;Initial Catalog=DboTeknikServis;Integrated Security=True;TrustServerCertificate=True");
         private void FrmMusteriIlIstatislik_Load(object sender, EventArgs e)
         {
             SehirGetir();

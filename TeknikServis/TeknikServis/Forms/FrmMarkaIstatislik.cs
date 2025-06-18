@@ -36,7 +36,7 @@ namespace TeknikServis.Forms
             lblEnFazlaUrunuOlanMarka.Text = db.MaxUrunMarka().FirstOrDefault().ToString();
 
             //Pie Chart 
-            SqlConnection bgl = new SqlConnection(@"Data Source=HAMDIDAMAR\SQL_2014;Initial Catalog=DboTeknikServis;Integrated Security=True");
+            SqlConnection bgl = new SqlConnection(@"Data Source=DESKTOP-M2P25KG;Initial Catalog=DboTeknikServis;Integrated Security=True;TrustServerCertificate=True");
             bgl.Open();
 
             SqlCommand cmd = new SqlCommand("SELECT Marka,COUNT(*) FROM Tbl_Urun GROUP BY Marka",bgl);
