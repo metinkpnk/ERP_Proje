@@ -38,49 +38,49 @@ Kategori işlemleri, ürün arama ve marka yönetimi bu ekrandan gerçekleştiri
 ---
 
 ### 📌 Ekran 2 - Müşteri ve Satış İşlemleri
-![Müşteri İşlemleri](./2.png)
+![Müşteri İşlemleri](Resimler/2.png)
 
 Yeni müşteri ekleme, listeleme, il bazlı istatistik alma ve ürün satış işlemleri bu modülde yer alır.
 
 ---
 
 ### 📌 Ekran 3 - Personel ve Departman Yönetimi
-![Personel İşlemleri](./3.png)
+![Personel İşlemleri](Resimler/3.png)
 
 Personel bilgileri ve departmanlar bu ekrandan yönetilir.
 
 ---
 
 ### 📌 Ekran 4 - Fatura ve Hareket Yönetimi
-![Fatura İşlemleri](./4.png)
+![Fatura İşlemleri](Resimler/4.png)
 
 Fatura oluşturma, detaylı fatura kalem girişi, geçmiş sorgulama ve PDF çıktısı alma işlemleri yapılabilir.
 
 ---
 
 ### 📌 Ekran 5 - Araçlar Paneli
-![Araçlar Paneli](./5.png)
+![Araçlar Paneli](Resimler/5.png)
 
 Hesap makinesi, ajanda, döviz kurları, YouTube erişimi, Word ve Excel entegrasyonu gibi pratik araçlar burada bulunur.
 
 ---
 
 ### 📌 Ekran 6 - Raporlama Modülü
-![Raporlama](./6.png)
+![Raporlama](Resimler/6.png)
 
 Rapor sihirbazı ile özel raporlar hazırlanabilir.
 
 ---
 
 ### 📌 Ekran 7 - İstatistik Paneli
-![İstatistikler](./7.png)
+![İstatistikler](Resimler/7.png)
 
 Kayıtlı kartlar ve genel istatistiksel veriler bu alanda toplanır.
 
 ---
 
 ### 📌 Ekran 8 - İletişim Modülü
-![İletişim](./8.png)
+![İletişim](Resimler/8.png)
 
 SMS gönderimi, e-posta kutusu ve yeni mail oluşturma gibi işlemler bu modülde gerçekleştirilir.
 
