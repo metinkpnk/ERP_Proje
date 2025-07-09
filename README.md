@@ -1,109 +1,62 @@
-# 📦 Teknik Servis Erp Otomasyonu
-
+📦 Teknik Servis Erp Otomasyonu
 Bu proje, teknik servis süreçlerini dijital olarak yönetmek ve izlemek amacıyla geliştirilmiş bir masaüstü otomasyon uygulamasıdır. C# dili ve .NET Framework kullanılarak geliştirilmiştir.
 
----
+🛠 Özellikler
+📋 Ürün kabul işlemleri (müşteri, seri no, giriş-çıkış tarihi vb.)
 
-## 🛠 Özellikler
+👨‍🔧 Personel ve müşteri yönetimi
 
-- 📋 Ürün kabul işlemleri (müşteri, seri no, giriş-çıkış tarihi vb.)
-- 👨‍🔧 Personel ve müşteri yönetimi
-- 🔍 Ürün arıza takibi, açıklamaları ve durum güncellemeleri
-- 🧾 Fatura işlemleri, geçmiş sorgulama ve PDF çıktısı alma
-- 📊 İstatistiksel analizler, rapor sihirbazı
-- 🧰 Hesap makinesi, döviz kuru, not defteri gibi yardımcı araçlar
-- ✉️ SMS ve e-posta iletişim modülü
+🔍 Ürün arıza takibi, açıklamaları ve durum güncellemeleri
 
----
+🧾 Fatura işlemleri, geçmiş sorgulama ve PDF çıktısı alma
 
-## 💻 Kullanılan Teknolojiler
+📊 İstatistiksel analizler, rapor sihirbazı
 
-| Teknoloji        | Açıklama                         |
-|------------------|----------------------------------|
-| C#               | Ana yazılım dili                 |
-| WinForms         | Kullanıcı arayüzü oluşturma      |
-| .NET Framework   | Uygulama altyapısı (.NET 4.x)    |
-| Microsoft SQL Server | Veritabanı yönetimi       |
-| Visual Studio    | Geliştirme ortamı                |
+🧰 Hesap makinesi, döviz kuru, not defteri gibi yardımcı araçlar
 
----
+✉️ SMS ve e-posta iletişim modülü
 
-## 🖼 Ekran Görüntüleri
+💻 Kullanılan Teknolojiler
+Teknoloji	Açıklama
+C#	Ana yazılım dili
+WinForms	Kullanıcı arayüzü oluşturma
+.NET Framework	Uygulama altyapısı (.NET 4.x)
+Microsoft SQL Server	Veritabanı yönetimi
+Visual Studio	Geliştirme ortamı
 
-### 📌 Ekran 1 - Ürün Kategori Yönetimi
-![Ürün Kategori Yönetimi](Resimler/1.png)
+🖼 Ekran Görüntüleri
+![1](Resimler/1.png)
+![2](Resimler/2.png)
+![3](Resimler/3.png)
+![4](Resimler/4.png)
+![5](Resimler/5.png)
+![6](Resimler/6.png)
+![7](Resimler/7.png)
+![8](Resimler/8.png)
+![9](Resimler/9.png)
+![10](Resimler/10.png)
+![11](Resimler/11.png)
+![12](Resimler/12.png)
+![13](Resimler/13.png)
+![14](Resimler/14.png)
+![15](Resimler/15.png)
+![16](Resimler/16.png)
+![17](Resimler/17.png)
+![18](Resimler/18.png)
+![19](Resimler/19.png)
 
-Kategori işlemleri, ürün arama ve marka yönetimi bu ekrandan gerçekleştirilir.
+🚀 Kurulum ve Kullanım
+Visual Studio ile projeyi açın.
 
----
+app.config dosyasındaki SQL bağlantı cümlesini güncelleyin.
 
-### 📌 Ekran 2 - Müşteri ve Satış İşlemleri
-![Müşteri İşlemleri](Resimler/2.png)
+SQL Server’da gerekli tabloları ve veritabanını oluşturun.
 
-Yeni müşteri ekleme, listeleme, il bazlı istatistik alma ve ürün satış işlemleri bu modülde yer alır.
+Projeyi çalıştırın ve arayüzden işlem yapmaya başlayın.
 
----
+👨‍💻 Geliştirici Notları
+Kodlama standartlarına ve katmanlı mimariye uygun geliştirilmiştir.
 
-### 📌 Ekran 3 - Personel ve Departman Yönetimi
-![Personel İşlemleri](Resimler/3.png)
+Validasyon ve hata önleyici kontroller uygulanmıştır.
 
-Personel bilgileri ve departmanlar bu ekrandan yönetilir.
-
----
-
-### 📌 Ekran 4 - Fatura ve Hareket Yönetimi
-![Fatura İşlemleri](Resimler/4.png)
-
-Fatura oluşturma, detaylı fatura kalem girişi, geçmiş sorgulama ve PDF çıktısı alma işlemleri yapılabilir.
-
----
-
-### 📌 Ekran 5 - Araçlar Paneli
-![Araçlar Paneli](Resimler/5.png)
-
-Hesap makinesi, ajanda, döviz kurları, YouTube erişimi, Word ve Excel entegrasyonu gibi pratik araçlar burada bulunur.
-
----
-
-### 📌 Ekran 6 - Raporlama Modülü
-![Raporlama](Resimler/6.png)
-
-Rapor sihirbazı ile özel raporlar hazırlanabilir.
-
----
-
-### 📌 Ekran 7 - İstatistik Paneli
-![İstatistikler](Resimler/7.png)
-
-Kayıtlı kartlar ve genel istatistiksel veriler bu alanda toplanır.
-
----
-
-### 📌 Ekran 8 - İletişim Modülü
-![İletişim](Resimler/8.png)
-
-SMS gönderimi, e-posta kutusu ve yeni mail oluşturma gibi işlemler bu modülde gerçekleştirilir.
-
----
-
-## 🚀 Kurulum ve Kullanım
-
-1. Visual Studio ile projeyi açın.
-2. `app.config` dosyasındaki SQL bağlantı cümlesini güncelleyin.
-3. SQL Server’da gerekli tabloları ve veritabanını oluşturun.
-4. Projeyi çalıştırın ve arayüzden işlem yapmaya başlayın.
-
----
-
-## 👨‍💻 Geliştirici Notları
-
-- Kodlama standartlarına ve katmanlı mimariye uygun geliştirilmiştir.
-- Validasyon ve hata önleyici kontroller uygulanmıştır.
-- Kullanıcı dostu arayüz ve sade menü tasarımı tercih edilmiştir.
-
----
-
-
-
-
-
+Kullanıcı dostu arayüz ve sade menü tasarımı tercih edilmiştir.
